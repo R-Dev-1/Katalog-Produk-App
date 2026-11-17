@@ -71,50 +71,22 @@ Sebelum menjalankan aplikasi, pastikan perangkat Anda telah terpasang:
 
 Menampilkan formulir input produk di bagian atas dan daftar kartu produk di bagian tengah.
 
-**Pratinjau Tata Letak Layar:**
+<img width="1252" height="988" alt="image" src="https://github.com/user-attachments/assets/c598f6ab-9da5-4550-a09f-d2a95c10d3fc" />
 
-```
-+-----------------------------------------------------------------------+
-| Katalog Produk                                                        |
-| Isi form, simpan, lalu lihat katalog.                                 |
-| Nama produk   : [ Contoh: Roti Cokelat                              ] |
-| Harga (Rp)    : [ Contoh: 10000                                     ] |
-| Foto contoh   : [ roti.png                                      ▼ ] |
-| [ Simpan ]                                                            |
-| Produk berhasil disimpan.                                             |
-| Jumlah produk: 3                                                      |
-+-----------------------------------------------------------------------+
-|  +--------------------+  +--------------------+  +--------------------+ |
-|  |   [Gambar Roti]    |  |   [Gambar Susu]    |  |   [Gambar Kopi]    | |
-|  | Roti Cokelat       |  | Susu Segar         |  | Kopi Hitam         | |
-|  | Rp10000            |  | Rp15000            |  | Rp12000            | |
-|  | ID: 1              |  | ID: 2              |  | ID: 3              | |
-|  | [ Edit ] [ Hapus ] |  | [ Edit ] [ Hapus ] |  | [ Edit ] [ Hapus ] | |
-|  +--------------------+  +--------------------+  +--------------------+ |
-+-----------------------------------------------------------------------+
-
-```
 
 ### 2. Mode Inline Edit pada Kartu Produk
 
 Ketika tombol **Edit** pada salah satu kartu diklik, kartu tersebut berubah menjadi formulir pengeditan instan.
 
-**Pratinjau Kartu Saat Mode Edit:**
+<img width="1252" height="988" alt="image" src="https://github.com/user-attachments/assets/acb9d0e5-f5e2-46f4-9a93-af0216c7d4dd" />
 
-```
-+--------------------+
-| Edit ID: 1         |
-| [ Roti Cokelat   ] |
-| [ 10000          ] |
-| [ roti.png     ▼ ] |
-| [ Simpan ] [Batal] |
-+--------------------+
-
-```
 
 ### 3. Dialog Konfirmasi Hapus Produk
 
 Muncul saat tombol **Hapus** ditekan untuk memastikan pengguna benar-benar ingin menghapus data produk dari database.
+
+<img width="452" height="225" alt="image" src="https://github.com/user-attachments/assets/b190c28d-a014-42ed-a9d9-a7858be9ca88" />
+
 
 ## Skema Database SQLite
 
